@@ -19,7 +19,7 @@ jobs:
           reporter: github-pr-review
           filter_mode: file
 
-  clj-kondo:
+  markdownlint:
     runs-on: ubuntu-latest
 
     steps:
