@@ -16,13 +16,10 @@ jobs:
 
       - name: Generate TOC for Markdown files
         run: |
-          set -eux
-          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o ${GITHUB_WORKSPACE}/.ci/gh-md-toc
-          chmod a+x ${GITHUB_WORKSPACE}/.ci/gh-md-toc
-          TOC_MD_FILES=$(find . -name '*.md' -not -path './third_party/*' -exec grep -l '<!--ts-->' {} \;)
-          for md in $TOC_MD_FILES; do
-            ${GITHUB_WORKSPACE}/.ci/gh-md-toc --insert --no-backup --hide-footer "$md"
-          done
+          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/0.8.0/gh-md-toc -o gh-md-toc
+          chmod a+x gh-md-toc
+          ./gh-md-toc --insert --no-backup --hide-footer README.md
+          rm gh-md-toc
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.14.1
