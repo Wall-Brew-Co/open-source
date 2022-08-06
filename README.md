@@ -4,6 +4,27 @@ At Wall Brew, we've done our best to extract as much useful functionality from o
 This repository documents how we work to provide high-quality software and our guidelines and expectations for contributors and maintainers alike.
 
 <!--ts-->
+* [Open Source](#open-source)
+   * [Libraries](#libraries)
+      * [Beer and Brewing](#beer-and-brewing)
+      * [Utility](#utility)
+   * [Philosophy](#philosophy)
+      * [Community Standards](#community-standards)
+      * [Worse is Better](#worse-is-better)
+      * [The Developer Experience](#the-developer-experience)
+   * [Requirements](#requirements)
+      * [Software Documentation](#software-documentation)
+      * [Community Documentation](#community-documentation)
+         * [Code of Conduct](#code-of-conduct)
+         * [Contributor Guidelines](#contributor-guidelines)
+         * [Licensing](#licensing)
+   * [Preferences](#preferences)
+      * [Template Community Documents](#template-community-documents)
+      * [Automating Opinions](#automating-opinions)
+      * [An Indexed Community](#an-indexed-community)
+      * [Get It For Free](#get-it-for-free)
+   * [Suggested Reading](#suggested-reading)
+   * [License](#license)
 <!--te-->
 
 ## Libraries
