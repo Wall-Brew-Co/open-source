@@ -1,0 +1,31 @@
+name: Formatter
+
+on:
+  pull_request: {}
+
+jobs:
+  formatting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v3.0.2
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.WALL_BREW_BOT_PAT }}
+
+      - name: Generate TOC for Markdown files
+        run: |
+          set -eux
+          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o ${GITHUB_WORKSPACE}/.ci/gh-md-toc
+          chmod a+x ${GITHUB_WORKSPACE}/.ci/gh-md-toc
+          TOC_MD_FILES=$(find . -name '*.md' -not -path './third_party/*' -exec grep -l '<!--ts-->' {} \;)
+          for md in $TOC_MD_FILES; do
+            ${GITHUB_WORKSPACE}/.ci/gh-md-toc --insert --no-backup --hide-footer "$md"
+          done
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        with:
+          commit_message: |
+            [Format] Auto-formatting
