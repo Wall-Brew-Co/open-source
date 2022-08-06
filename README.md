@@ -26,7 +26,7 @@ This repository documents how we work to provide high-quality software and our g
 Our open source philosophy describes the fundamental beliefs and values we hold and why we value them.
 Since philosophy tends to be abstract, this section is intended to be educational more than it is a means of handling concrete situations.
 We do not expect every member to personally hold the same beliefs or perspectives as we do; however, we have derived many of our practices and standards from our philosophy.
-Therefore, we believe it is important to share with out open source community.
+Therefore, we believe it is important to share with our open source community.
 
 ### Community Standards
 
@@ -114,7 +114,7 @@ Wall Brew is committed to providing a safe, welcoming, and productive community 
 To that end, we believe setting explicit, up-front boundaries helps set the tone and expectations for our community.
 Therefore, all open source projects released under the Wall Brew umbrella must provide full text copies of or links to the standard collection of community documents outlined below.
 These outline recommendations, rules, and requirements for participating in our open source ecosystem at multiple levels.
-It is expected that all contributors hold themselves to these standards, and required that all maintainers reinforce these basic contracts.
+It is expected that all contributors hold themselves to these standards, and it is required that all maintainers reinforce these basic contracts.
 
 #### Code of Conduct
 
@@ -145,7 +145,7 @@ Additionally, we explicitly prohibit:
 - Publishing others' private information, such as a physical or electronic address, without explicit permission
 - Other conduct which could reasonably be considered inappropriate in any setting
 
-Maintainers are expected to remove. edit, or reject any contribution that does not meet these standards.
+Maintainers are expected to remove, edit, or reject any contribution that does not meet these standards.
 Further, any maintainer or contributor found grossly in violation, intentionally in violation, or repeatedly in violation of these guidelines may be banned temporarily or permanently at the sole discretion of Wall Brew.
 
 Violations of these guidelines may be reported publicly by tagging any Wall Brew Maintainer or in private by emailing contact [at] wallbrew [dot] com.
@@ -170,7 +170,7 @@ Exceptions to this rule are generally only supported in instances where Wall Bre
 
 More commonly, our philosophies manifest as preferences.
 We state them here to be explicit and to help ourselves stay as consistent as possible.
-Preferences are explicitly weaker than requirements, and may be bypasses in some circumstances.
+Preferences are explicitly weaker than requirements, and may be bypassed in some circumstances.
 Maintainers will endeavor to point out our preferences, but they are not strict requirements of contributors.
 
 ### Template Community Documents
@@ -215,8 +215,8 @@ To that end, we leverage GitHub as our primary point of communication and intera
 
 ### Get It For Free
 
-For every point we've outlined in this document, we could select from many implementations to fulfil our needs and preferences.
-There are many companies and resources which exist to fulfil each of these needs, and they each come with their own tradeoffs, paradigms, and cognitive overhead.
+For every point we've outlined in this document, we could select from many implementations to fulfill our needs and preferences.
+There are many companies and resources which exist to fulfill each of these needs, and they each come with their own tradeoffs, paradigms, and cognitive overhead.
 Some of these options require payment, some require plugins or third-party extensions, and all come with some cost of maintenance and implementation.
 
 The maintenance cost of our suite of tools must be set in balance against the value they provide.
