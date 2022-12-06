@@ -5,6 +5,29 @@ This repository documents how we work to provide high-quality software and our g
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Libraries](#libraries)
+  - [Beer and Brewing](#beer-and-brewing)
+  - [Utility](#utility)
+- [Philosophy](#philosophy)
+  - [Community Standards](#community-standards)
+  - [Worse is Better](#worse-is-better)
+  - [The Developer Experience](#the-developer-experience)
+- [Requirements](#requirements)
+  - [Software Documentation](#software-documentation)
+  - [Community Documentation](#community-documentation)
+    - [Code of Conduct](#code-of-conduct)
+    - [Contributor Guidelines](#contributor-guidelines)
+    - [Licensing](#licensing)
+- [Preferences](#preferences)
+  - [Template Community Documents](#template-community-documents)
+  - [Automating Opinions](#automating-opinions)
+  - [An Indexed Community](#an-indexed-community)
+  - [Get It For Free](#get-it-for-free)
+- [Suggested Reading](#suggested-reading)
+- [Implementation](#implementation)
+- [License](#license)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Libraries
