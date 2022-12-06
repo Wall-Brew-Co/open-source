@@ -3,29 +3,32 @@
 At Wall Brew, we've done our best to extract as much useful functionality from our stack and make it available to the public.
 This repository documents how we work to provide high-quality software and our guidelines and expectations for contributors and maintainers alike.
 
-<!--ts-->
-* [Open Source](#open-source)
-   * [Libraries](#libraries)
-      * [Beer and Brewing](#beer-and-brewing)
-      * [Utility](#utility)
-   * [Philosophy](#philosophy)
-      * [Community Standards](#community-standards)
-      * [Worse is Better](#worse-is-better)
-      * [The Developer Experience](#the-developer-experience)
-   * [Requirements](#requirements)
-      * [Software Documentation](#software-documentation)
-      * [Community Documentation](#community-documentation)
-         * [Code of Conduct](#code-of-conduct)
-         * [Contributor Guidelines](#contributor-guidelines)
-         * [Licensing](#licensing)
-   * [Preferences](#preferences)
-      * [Template Community Documents](#template-community-documents)
-      * [Automating Opinions](#automating-opinions)
-      * [An Indexed Community](#an-indexed-community)
-      * [Get It For Free](#get-it-for-free)
-   * [Suggested Reading](#suggested-reading)
-   * [License](#license)
-<!--te-->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Libraries](#libraries)
+  - [Beer and Brewing](#beer-and-brewing)
+  - [Utility](#utility)
+- [Philosophy](#philosophy)
+  - [Community Standards](#community-standards)
+  - [Worse is Better](#worse-is-better)
+  - [The Developer Experience](#the-developer-experience)
+- [Requirements](#requirements)
+  - [Software Documentation](#software-documentation)
+  - [Community Documentation](#community-documentation)
+    - [Code of Conduct](#code-of-conduct)
+    - [Contributor Guidelines](#contributor-guidelines)
+    - [Licensing](#licensing)
+- [Preferences](#preferences)
+  - [Template Community Documents](#template-community-documents)
+  - [Automating Opinions](#automating-opinions)
+  - [An Indexed Community](#an-indexed-community)
+  - [Get It For Free](#get-it-for-free)
+- [Suggested Reading](#suggested-reading)
+- [Implementation](#implementation)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Libraries
 
@@ -142,7 +145,7 @@ It is expected that all contributors hold themselves to these standards, and it 
 
 All community members should have a clear and shared understanding of what is considered acceptable and unacceptable behavior.
 To prevent ad-hoc or just-in-time rule setting, we have explicitly outlined our expectations and rules in text.
-Our [Code of Conduct](https://github.com/Wall-Brew-Co/open-source/blob/master/templates/CODE_OF_CONDUCT.md "The minimum behavioral standards we expect from the community") strives to meet three goals:
+Our [Code of Conduct](https://github.com/Wall-Brew-Co/rebroadcast/blob/master/sources/community/CODE_OF_CONDUCT.md "The minimum behavioral standards we expect from the community") strives to meet three goals:
 
 - Welcome contributors and participants
 - Define basic standards and rules for community participation
@@ -198,12 +201,15 @@ Maintainers will endeavor to point out our preferences, but they are not strict 
 ### Template Community Documents
 
 Since all Wall Brew libraries are beholden to the same standards, community documents (e.g. a Code of Conduct) ought to be templated- requiring only the repository name, relevant URLs, etc to be updated per-instance.
-Full text copies of our community documents may be found in the `templates` directory of this repository.
+Full text copies of our community documents may be found in the [`rebroadcast`](https://github.com/Wall-Brew-Co/rebroadcast "Our source-of-truth for template documents and repository configuration") repository.
 
 Occasionally, sections of these documents may not reasonably apply to certain repositories.
 Other repositories may require additional considerations not accounted for in the basic template.
 In either of these cases, maintainers may amend the community documents to a repository's specific needs.
 The community documentation of a repository will generally supersede the analogous template- barring extreme circumstance.
+
+Pragmatically, these updates are made in a single source-of-truth and then rebroadcast to all relevant repositories.
+This minimizes the chance for transpositional errors (e.g. linking to the wrong repository's License within a Code of Conduct), and errors of omission (e.g. forgetting to update all impacted repositories when the Security Policy is updated)
 
 ### Automating Opinions
 
@@ -256,6 +262,11 @@ There are several other companies which offer these features that can integrate 
   - [Moderator Academy](https://discord.com/moderation "Discord's community resources and classes for moderation")
   - [Contributor Covenant FAQ](https://www.contributor-covenant.org/faq/ "Questions frequently asked about the Contributor Covenant the Wall Brew Code of Conduct is derived from")
   - [The Paradox of Tolerance](https://en.wikipedia.org/wiki/Paradox_of_tolerance "Why enforcing social limits is important to maintaining a tolerant community")
+
+## Implementation
+
+- [rebroadcast](https://github.com/Wall-Brew-Co/rebroadcast "Our source-of-truth for template documents and repository configuration")
+- [clojure-lint-action](https://github.com/nnichols/clojure-lint-action "An automated tool that reports clj-kondo findings to relevant Pull Requests")
 
 ## License
 

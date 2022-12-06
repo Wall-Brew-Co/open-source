@@ -14,15 +14,21 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.WALL_BREW_BOT_PAT }}
 
-      - name: Generate TOC for Markdown files
-        run: |
-          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/0.8.0/gh-md-toc -o gh-md-toc
-          chmod a+x gh-md-toc
-          ./gh-md-toc --insert --no-backup --hide-footer README.md
-          rm gh-md-toc
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      # Table of Contents Tool: https://github.com/thlorenz/doctoc
+      - name: Install Doctoc
+        run: npm install -g doctoc
+
+      - name: Update Markdown Files
+        run: doctoc README.md --github
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        uses: stefanzweifel/git-auto-commit-action@v4.15.2
         with:
           commit_message: |
             [Format] Auto-formatting
