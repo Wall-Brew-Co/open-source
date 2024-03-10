@@ -44,21 +44,24 @@ This repository documents how we work to provide high-quality software and our g
 - [clj-xml:](https://github.com/Wall-Brew-Co/clj-xml "The clj-xml repository") A clojure library designed to make conversions between EDN and XML a little easier.
 - [keg:](https://github.com/Wall-Brew-Co/keg "The keg repository") A clojure library library to unobtrusively log functions.
 - [lein-sealog:](https://github.com/Wall-Brew-Co/lein-sealog "The Sealog repository") - A [Leiningen](https://leiningen.org/ "Leiningen is a clojure build tool") plugin for managing your changelog.
+
+### Deprecated
+
 - [strawpoll-client:](https://github.com/Wall-Brew-Co/strawpoll-client "The strawpoll-client repository") A clj-http client library to interact with the [StrawPoll API](https://strawpoll.com/ "The StrawPoll home page")
 
 ## Philosophy
 
-Our open source philosophy describes the fundamental beliefs and values we hold and why we value them.
+Our open-source philosophy describes our fundamental beliefs and values and why we value them.
 Since philosophy tends to be abstract, this section is intended to be educational more than it is a means of handling concrete situations.
 We do not expect every member to personally hold the same beliefs or perspectives as we do; however, we have derived many of our practices and standards from our philosophy.
-Therefore, we believe it is important to share with our open source community.
+Therefore, we believe it is important to share with our open-source community.
 
 ### Community Standards
 
-Human interaction is complex, and subject to many different lenses of personal, contextual, and cultural influence.
+Human interaction is complex and subject to many different lenses of personal, contextual, and cultural influence.
 Every individual has their own perception of what they consider to be helpful, harmful, professional, and casual conduct.
 Differences in these perceptions can leady to unhealthy or harmful conflicts of opinion, which can cascade into real harm against a person's emotional, physical, and/or mental well-being.
-Within a community, it is important to ensure that differences in opinion may be held without adversely impacting any member of said community.
+Within a community, it is important to ensure that differences in opinion may be held without adversely impacting any community member.
 
 However, we each individually hold our own perceptions of what a community is and ought to be.
 Enforcing any communal rules or standards requires a shared understanding of what is and is not considered acceptable behavior and language.
@@ -108,9 +111,9 @@ Consistent, intentional, or bad-faith violations of these requirements may be gr
 ### Software Documentation
 
 Software is written and consumed by humans; machine code is written and consumed by machines.
-Since our open source presence provides software libraries, we should build them to be consumed by humans.
+Since our open-source presence provides software libraries, we should build them to be consumed by humans.
 However, this belief is neither equally supported nor held across all programming communities.
-While code literacy is an important skill for programmers, it should not be a barrier to entry to using open source libraries.
+While code literacy is an important skill for programmers, it should not be a barrier to entry to using open-source libraries.
 Every effort should be made to make the use of Wall Brew open source offerings as straightforward as possible.
 
 It is required that:
@@ -137,7 +140,7 @@ It is not sufficient to:
 
 Wall Brew is committed to providing a safe, welcoming, and productive community for our software projects.
 To that end, we believe setting explicit, up-front boundaries helps set the tone and expectations for our community.
-Therefore, all open source projects released under the Wall Brew umbrella must provide full text copies of or links to the standard collection of community documents outlined below.
+Therefore, all open-source projects released under the Wall Brew umbrella must provide full text copies of or links to the standard collection of community documents outlined below.
 These outline recommendations, rules, and requirements for participating in our open source ecosystem at multiple levels.
 It is expected that all contributors hold themselves to these standards, and it is required that all maintainers reinforce these basic contracts.
 
