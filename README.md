@@ -273,6 +273,6 @@ There are several other companies which offer these features that can integrate 
 
 ## License
 
-Copyright © 2022 - [Wall Brew Co](https://wallbrew.com/ "Wall Brew's Home page")
+Copyright © [Wall Brew Co](https://wallbrew.com/ "Wall Brew's Home page")
 
 This documentation is provided for free, public use as outlined in the [MIT License](https://github.com/Wall-Brew-Co/open-source/blob/master/LICENSE "A full-text copy of the MIT License")
