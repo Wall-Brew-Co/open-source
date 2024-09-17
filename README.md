@@ -9,6 +9,7 @@ This repository documents how we work to provide high-quality software and our g
 - [Libraries](#libraries)
   - [Beer and Brewing](#beer-and-brewing)
   - [Utility](#utility)
+  - [Deprecated](#deprecated)
 - [Philosophy](#philosophy)
   - [Community Standards](#community-standards)
   - [Worse is Better](#worse-is-better)
