@@ -43,11 +43,11 @@ This repository documents how we work to provide high-quality software and our g
 ### Utility
 
 - [clj-xml:](https://github.com/Wall-Brew-Co/clj-xml "The clj-xml repository") A clojure library designed to make conversions between EDN and XML a little easier.
-- [keg:](https://github.com/Wall-Brew-Co/keg "The keg repository") A clojure library library to unobtrusively log functions.
 - [lein-sealog:](https://github.com/Wall-Brew-Co/lein-sealog "The Sealog repository") - A [Leiningen](https://leiningen.org/ "Leiningen is a clojure build tool") plugin for managing your changelog.
 
 ### Deprecated
 
+- [keg:](https://github.com/Wall-Brew-Co/keg "The keg repository") A clojure library library to unobtrusively log functions.
 - [strawpoll-client:](https://github.com/Wall-Brew-Co/strawpoll-client "The strawpoll-client repository") A clj-http client library to interact with the [StrawPoll API](https://strawpoll.com/ "The StrawPoll home page")
 
 ## Philosophy
