@@ -1,4 +1,3 @@
 restricted:
-  - LICENSE
-  - .github/**/*
-  - /templates/**/*
+  - changed-files:
+    - any-glob-to-any-file: ['LICENSE', '.github/**/*', 'templates/**/*']

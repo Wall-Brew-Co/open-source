@@ -1,12 +1,17 @@
 name: Label Pull Requests
 on: [pull_request]
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   label:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/labeler@v2
+    # https://github.com/actions/labeler
+    - uses: actions/labeler@f27b608878404679385c85cfa523b85ccb86e213 # v6
       with:
         repo-token: "${{ secrets.WALL_BREW_BOT_PAT }}"

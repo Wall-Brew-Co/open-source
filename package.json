@@ -1,5 +1,10 @@
 {
+  "scripts": {
+    "doctoc": "doctoc README.md --github",
+    "validate-renovate": "renovate-config-validator"
+  },
   "dependencies": {
-    "doctoc": "^2.2.1"
+    "doctoc": "2.4.1",
+    "renovate": "^43.214.2"
   }
 }
