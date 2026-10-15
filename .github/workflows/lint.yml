@@ -37,7 +37,7 @@ jobs:
 
       # https://github.com/reviewdog/action-markdownlint
       - name: Lint Markdown
-        uses: reviewdog/action-markdownlint@a223028b797326efe9d3c9b55e24d740480c3352 # v0.31.2
+        uses: reviewdog/action-markdownlint@b85a623ec721cb42896c485633f527cbd2d58063 # v0.31.5
         with:
           github_token: ${{ secrets.WALL_BREW_BOT_PAT }}
           reporter: github-pr-review
